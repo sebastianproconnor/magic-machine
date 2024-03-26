@@ -24,7 +24,8 @@ with st.expander('About this app'):
 
 clf2.predict(X[0:1])
 
-
+#add inout data
+df_input_skills = pd.read_csv('inputskills.csv')
 
   
   checkbox_labels = ['SQL', 'Python', 'Excel', 'Power BI', 'Tableau', 'SAS', 'Azure', 'Snowflake', 'AWS', 'Spark', 'Looker', 'Qlik']
